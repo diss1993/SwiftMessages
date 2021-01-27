@@ -255,7 +255,7 @@ extension MessageView {
         case .info:
             let backgroundColor = UIColor(red: 225.0/255.0, green: 225.0/255.0, blue: 225.0/255.0, alpha: 1.0)
             let foregroundColor = UIColor.darkText
-            configureTheme(backgroundColor: backgroundColor, foregroundColor: foregroundColor, iconImage: iconImage)
+            configureTheme(backgroundColor: backgroundColor, foregroundColor: foregroundColor, iconImage: iconImage)	
         }
     }
     
