@@ -7,6 +7,7 @@
 //
 
 import CoreGraphics
+import UIKit
 
 extension CALayer {
     func findAnimation(forKeyPath keyPath: String) -> CABasicAnimation? {

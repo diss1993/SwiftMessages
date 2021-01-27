@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 public typealias AnimationCompletion = (_ completed: Bool) -> Void
 
 public protocol AnimationDelegate: class {
