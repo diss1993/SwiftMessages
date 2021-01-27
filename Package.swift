@@ -2,6 +2,9 @@ import PackageDescription
 
 let package = Package (
     name: "SwiftMessages",
+    platforms: [
+        .iOS(.v10),
+    ],
     products: [
         .library(
             name: "SwiftMessages",
